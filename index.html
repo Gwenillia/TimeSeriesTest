@@ -14,12 +14,14 @@
   <body>
     <main>
       <h1>Simple webapp that presents a time series</h1>
-      <div>
+      <div class="container">
         <div>
           <label for="search">Search a value:</label>
-          <input type="number" id="search" />
+          <input type="number" id="search" min="0" />
         </div>
-        <canvas id="chart"></div>
+        <div class="chart_container">
+          <canvas id="chart"></div>
+        </div>
       </div>
     </main>
   </body>

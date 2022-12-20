@@ -1,0 +1,9 @@
+main {
+  height: 100vh;
+}
+.container {
+  height: 75%;
+}
+.chart_container {
+  height: 100%;
+}
